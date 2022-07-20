@@ -1,6 +1,6 @@
 # Purpose
 This site is created for distribution of my work digitally online.
-
+visit http://www.slackingkevin.space
 
 ## Credicts:
 Phantom by HTML5 UP
