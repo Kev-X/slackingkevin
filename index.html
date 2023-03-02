@@ -1,175 +1,211 @@
-<!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <html>
 
 <head>
-	<title>Project X</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+    <meta charset="utf-8">
+    <title>ATOBABI Store
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./code-resource/bootstrap.css">
 </head>
 
-<body class="is-preload">
-	<!-- Wrapper -->
-	<div id="wrapper">
+<body class=" bg-secondary">
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="./index.html">ATOBABI</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">All items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">New Arrivals</a>
+                    </li>
 
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-				<!-- Logo -->
-				<a href="assets/articles/aboutme.html" class="logo">
-					<span class="symbol"><img src="images/logo.svg" alt="" /></span><span
-						class="title">XIE:ZIYANG</span>
-				</a>
+    <!-- search block -->
+    <div class="container-fluid bg-secondary h-100 mt-5 pt-2">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/car1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/car2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/car3.png" class="d-block w-100" alt="...">
+                </div>
 
-				<!-- Nav -->
-				<nav>
-					<ul>
-						<li><a href="#menu">Menu</a></li>
-					</ul>
-				</nav>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-			</div>
-		</header>
+    <!-- business description -->
+    <div class="container-fluid text-center bg-secondary">
+        <h1 class="text-white">ATOBABI</h1>
+        <p class="m-0 pb-2 text-white">Amazing product with exclusive price!</p>
+        <p class="m-0 pb-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-		<!-- Menu -->
-		<nav id="menu">
-			<h2>Menu</h2>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="assets/articles/aboutme.html">About Me</a></li>
-				<li><a href="elements.html">Elements</a></li>
-			</ul>
-			<br>
-
-			<h3>CONTACT</h3>
-			<a href="https://github.com/Kev-X" class="icon brands style2 fa-github"><span
-					class="label">GitHub</span></a>
-			<a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a>
-			<hr>
-		</nav>
-
-		<!-- Main-Projects -->
-		<div id="main">
-			<div class="inner"
-				style="background-color:rgb(234, 234, 234); padding-bottom: 2cm; padding-top: 1cm; border-radius: 1.2%;">
-				<header>
-					<h1>Written work by <a href="assets/articles/aboutme.html">Kevin XIE</a>.</h1>
-					<p>Here are some outputs from my self-studies on Complex Systems and Artificial Intelligence.</p>
-				</header>
-				<section class="tiles">
-					<article class="style5">
-						<span class="image">
-							<img src="images/pic06.jpg" alt="" />
-						</span>
-						<a href="#">
-							<h2>Swarm behavior simulations</h2>
-							<div class="content">
-								<p>Multiple simulations on different types of collective agents.
-								</p>
-							</div>
-						</a>
-					</article>
-				</section>
-			</div>
-		</div>
+    </div>
 
 
-		<!-- Main-Maths stuff -->
-		<div id="main">
-			<div class="inner"
-				style="background-color:rgb(234, 234, 234); padding-bottom: 2cm; padding-top: 1cm; border-radius: 1.2%;">
-				<header>
-					<h1>Maths stuff</h1>
-					<p>A collection of notes on puzzles and maths ideas that I have spent time on (or merely found
-						interesting).</p>
-					<hr>
-				</header>
-				<section class="tiles">
-					<article class="style6">
-						<span class="image">
-							<img src="images/pic02.jpg" alt="" />
-						</span>
-						<a href="assets/articles/Regarding MrJs Week 1 Puzzle/Puzzle20220901.html">
-							<h2>Puzzle20220901</h2>
-							<div class="content">
-								<p>A puzzle on filling up curve confined spaces with circles in 2-D Euclidean space.
-								</p>
-							</div>
-						</a>
-					</article>
-				</section>
-			</div>
-		</div>
+    <!-- grid display -->
+    <div class="container-fluid bg-secondary">
+        <div class="row">
+            <!-- use js to create smaller containers in here -->
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
 
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<!--
-				<section>
-					<h2>Get in touch</h2>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field half">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field half">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send" class="primary" /></li>
-						</ul>
-					</form>
-				</section>
-				-->
-				<section>
-					<h2>Follow</h2>
-					<ul class="icons">
-						<!--
-						<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>
-						</li>
-						<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a>
-						</li>
-						<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
-						</li>
-						<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-						<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-						
-						-->
-						<li><a href="https://github.com/Kev-X" class="icon brands style2 fa-github"><span
-									class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</section>
-				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</footer>
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
 
-	</div>
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
 
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+            <div class="col-3 pb-2">
+                <a href="./prototype-specific.html" target="_blank">
+                    <img src="./assets/square-images/thumb-nail-placeholder.png" alt="" class="img-thumbnail">
+
+                </a>
+                <p class="text-white-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                    totam.
+                </p>
+                <p class="text-warning fs-4">$0.99</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="./code-resource/bootstrap.js" async defer></script>
 </body>
 
 </html>
